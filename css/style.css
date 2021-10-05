@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+}
+.wrapper
+{
+    position: relative;
+    top: 5%;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    background-color: aquamarine;
+    background-size: cover;
+    background-image: url('http://localhost/offline attendence/images/auditorium-benches-chairs-207691.jpg');
+}
+input[type=search], input[type=text], input[type=password], select
+{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    margin: 8px 0;
+    border: 1px solid purple;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit], input[type=reset]
+{
+    width: 100%;
+    background: green;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact
+{
+    display: inline-block;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    border: 3px solid black;
+    background: white;
+    padding: 20px;
+    height: auto;
+}
+.attendtable
+{
+    display: inline-block;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+    border: 3px solid black;
+    background: white;
+    padding: 20px;
+    height: auto;
+}
